@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";",
+		"body {\n    background-color: azure;\n}\n\n.author-list-arelinco {\n    list-style: none;\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,IAAI,CAAC,EACD,gBAAgB,EAAE,KAAK,GAC1B;;AAED,AAAA,qBAAqB,CAAC,EAClB,UAAU,EAAE,IAAI,GACnB"
+}

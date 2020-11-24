@@ -1,0 +1,15 @@
+---
+layout: default
+title: ARELINCO Authors
+---
+<h1>Author Page</h1>
+
+<ul class="author-list-arelinco">
+    {% for member in site.authors %}
+        <li>
+            <h2>{{ member.name }}</h1>
+            <h3>{{ member.alias }}</h2>
+            {{ member.content | markdownify }}
+        </li>
+    {% endfor %}
+</ul>
